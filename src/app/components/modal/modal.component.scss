@@ -1,0 +1,29 @@
+.modal-content {
+  padding: 1.25rem;
+  border: none;
+  margin-top: 30%;
+
+  a {
+    color: teal;
+  }
+
+  .modal-header {
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+    text-align: center;
+  }
+
+  .modal-title {
+    width: 100%;
+    color: black;
+  }
+
+  .modal-body {
+    font-size: 0.875rem;
+  }
+
+  .modal-footer {
+    border-top: none;
+  }
+}

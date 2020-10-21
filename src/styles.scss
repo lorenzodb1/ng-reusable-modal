@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #3a3a3a;
+}
+
+ngb-modal-window {
+
+}
+
+ngb-modal-window .modal-dialog {
+  border: 3px solid #262626;
+  border-radius: 11px;
+  margin-top: 15%;
+
+  .modal-content {
+    padding: 1.25rem;
+    border: none;
+
+    a {
+      color: teal;
+    }
+
+    .modal-header {
+      justify-content: center;
+      flex-direction: column;
+      border: none;
+      text-align: center;
+    }
+
+    .modal-title {
+      width: 100%;
+      color: black;
+    }
+
+    .modal-body {
+      font-size: 0.875rem;
+    }
+
+    .modal-footer {
+      border-top: none;
+    }
+  }
+}
